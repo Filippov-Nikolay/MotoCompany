@@ -1,0 +1,211 @@
+
+/* ANIMATION (show content on scroll) */
+/* ========================= */
+/* header */
+/* ========================= */
+.header__wrapper-nav {
+    opacity: 0;
+    transform: translateY(-80px);
+    transition: all 1s ease;
+}
+.header__content {
+    opacity: 0;
+    height: 0;
+    transition: all 1s ease;
+}
+.header__title {
+    opacity: 0;
+    transition: all 1.3s ease;
+}
+.header__sub-title {
+    opacity: 0;
+    transition: all 1.3s ease;
+}
+.header__slogan {
+    opacity: 0;
+    transition: all 1.3s ease;
+}
+.header__btn {
+    opacity: 0;
+    transition: all 1.3s ease;
+}
+.element-show .header__wrapper-nav {
+    opacity: 1;
+    transform: translateY(0);
+}
+.element-show .header__content {
+    opacity: 1;
+    height: 100vh;
+    transform: translateY(0);
+}
+.element-show .header__title {
+    opacity: 1;
+}
+.element-show .header__sub-title {
+    opacity: 1;
+}
+.element-show .header__slogan {
+    opacity: 1;
+}
+.element-show .header__btn {
+    opacity: 1;
+}
+/* ========================= */
+/* about-us */
+/* ========================= */
+.about-us__aside {
+    opacity: 0;
+    transform: translateX(-250px);
+    transition: all .5s ease;
+}
+.about-us__content-info {
+    opacity: 0;
+    transform: translateX(250px);
+    transition: all .5s ease;
+}
+
+.element-show .about-us__aside {
+    opacity: 1;
+    transform: translateX(0);
+}
+.element-show .about-us__content-info {
+    opacity: 1;
+    transform: translateX(0);
+}
+/* ========================= */
+/* popular */
+/* ========================= */
+.title {
+    opacity: 0;
+    transform: translateY(-45px);
+    transition: all .5s ease;
+}
+.sub-title {
+    opacity: 0;
+    transform: translateY(-45px);
+    transition: all .8s ease;
+}
+.element-show .title {
+    opacity: 1;
+    transform: translateX(0);
+}
+.element-show .sub-title {
+    opacity: 1;
+    transform: translateX(0);
+}
+.slick-slide {
+    opacity: 0;
+    transition: all .5s ease;
+}
+.slick-list {
+    transform: translateX(135px);
+    transition: all 0.9s ease;
+}
+.slick-dots {
+    opacity: 0;
+    transition: all 1s ease;
+}
+.element-show .slick-slide {
+    opacity: 1;
+}
+.element-show .slick-list {
+    transform: translateX(0);
+}
+.element-show .slick-dots {
+    opacity: 1;
+}
+/* ========================= */
+/* more-possibilities */
+/* ========================= */
+.more-possibilities__wrapper-img {
+    opacity: 0;
+    transition: all .5s ease;
+}
+.more-possibilities__card-img {
+    opacity: 0;
+    transition: all 1s ease;
+}
+.more-possibilities__card-img-1 {
+    transform: translateY(-100px);
+    transition: all .5s ease;
+}
+.more-possibilities__card-img-2 {
+    transform: translateY(-100px);
+    transition: all .8s ease;
+}
+.more-possibilities__card-img-3 {
+    transform: translateY(-50px);
+    transition: all 1s ease;
+}
+.element-show .more-possibilities__wrapper-img {
+    opacity: 1;
+}
+.element-show .more-possibilities__card-img {
+    opacity: 1;
+    transform: translateY(0);
+}
+/* ========================= */
+/* recommendations/product */
+/* ========================= */
+.recommendations__companies-about {
+    opacity: 0;
+    transition: all .5s ease;
+}
+.recommendations__product-about {
+    opacity: 0;
+    transition: all 1s ease;
+}
+.recommendations__product-about .about-card__item {
+    transform: scale(0);
+    transition: all 0.8s ease;
+}
+.element-show .recommendations__companies-about {
+    opacity: 1;
+}
+.element-show .recommendations__product-about {
+    opacity: 1;
+}
+.element-show .recommendations__product-about .about-card__item {
+    transform: scale(1);
+}
+/* ========================= */
+/* help-from */
+/* ========================= */
+.form__input {
+    width: 0;
+    transition: all 0.5s ease;
+}
+.form__btn {
+    opacity: 0;
+    transition: all 1s ease;
+}
+.element-show .form__input {
+    width: 100%;
+}
+.element-show .form__btn {
+    opacity: 1;
+}
+/* ========================= */
+/* footer */
+/* ========================= */
+.rave__item {
+    transform: scale(0);
+    transition: all .5s ease;
+}
+.footer__logo {
+    opacity: 0;
+    transition: all 1.2s ease;
+}
+.footer__copyright {
+    opacity: 0;
+    transition: all 1.5s ease;
+}
+.element-show .rave__item {
+    transform: scale(1);
+}
+.element-show .footer__logo {
+    opacity: 1;
+}
+.element-show .footer__copyright {
+    opacity: 1;
+}

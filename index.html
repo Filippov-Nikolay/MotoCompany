@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/logo-title.svg">
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <!-- NORMALIZE -->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- CUSTOM -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- ADAPTIVE -->
+    <link rel="stylesheet" href="css/adaptive.css">
+
+    <!-- ANIMATION -->
+    <link rel="stylesheet" href="css/animation.css">
+
+    <title>MotoCompany</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header id="header" class="header anim-block">
+        <div class="header__wrapper-nav">
+            <div class="container">
+                <nav class="nav">
+                    <a href="index.html" class="logo"><img src="img/logo.svg" alt="logo" class="logo__img"></a>
+                    <ul class="menu">
+                        <li class="menu__item"><a href="#about-us" class="menu__link">О нас</a></li>
+                        <li class="menu__item"><a href="#popular" class="menu__link">Популярные</a></li>
+                        <li class="menu__item"><a href="#product" class="menu__link">Товары</a></li>
+                        <li class="menu__item"><a href="#help-from" class="menu__link">Помощь</a></li>
+                    </ul>
+                    <button class="burger">
+                        <span class="burger__item"></span>
+                        <span class="burger__item"></span>
+                        <span class="burger__item"></span>
+                    </button>
+                </nav>
+            </div>
+        </div>
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__content">
+                    <h1 class="header__title">moto company</h1>
+                    <h3 class="header__sub-title">Выбери мотоцикл своей мечты</h3>
+                    <p class="header__slogan">Открой для себя мир возможностей!</p>
+                    <a class="header__btn" href="#about-us">Узнать больше</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section id="about-us" class="section about-us anim-block">
+            <div class="container">
+                <div class="about-us__content">
+                    <div class="about-us__aside">
+                        <div class="about-us__wrapper-img">
+                            <div class="about-us__img-overflow">
+                                <img class="about-us__img" src="img/section_about-us/about-us-1.png" alt="img-">
+                            </div>
+                            <div class="about-us__card-img card-img">
+                                <h4 class="card-img__title about-us__card-title">2.500+</h4>
+                                <p class="card-img__text about-us__card-text">Магазинов размещены вдоль популярных маршрутов</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-us__content-info content-info">
+                        <h3 class="content-info__title">Спортивные мотоциклы</h3>
+                        <p class="content-info__text">
+                            Взгляните в будущее с высокоскоростными мототоциклами производства известных брендов. 
+                        </p>
+                        <a class="btn section__btn about-us__btn" href="#popular">Узнать больше</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="popular" class="section popular anim-block">
+            <div class="container">
+                <div class="popular__content">
+                    <h2 class="title popular__title">Популярное</h2>
+                    <h4 class="sub-title popular__sub-title">Выберите свой спортивный мотоцикл</h4>
+                    <div class="about__popular slider">
+                        <div class="slider__item">
+                            <div class="item-card__wrapper about-card__item">
+                                <h2 class="item-card__title">Kawasaki</h2>
+                                <h4 class="item-card__subt-title">Ninja 650</h4>
+                                <div class="item-card__wrapper-img">
+                                    <img src="img/section_popular/popular-product-2-kawasaki-ninja-650.png" alt="" class="item-card__img" href="#">
+                                </div>
+                                <div class="item-card__characteristic">
+                                    <!-- Заменить на icon -->
+                                    <div class="item-card__value">
+                                        <img src="img/ico-spped.svg" alt="" class="item-card__icon">
+                                        <p class="item-card__text">4.2 сек</p>
+                                    </div>
+                                    <!-- Заменить на icon -->
+                                    <div class="item-card__value">
+                                        <img src="img/ico-chart.svg" alt="" class="item-card__icon">
+                                        <p class="item-card__text">205 км/ч</p>
+                                    </div>
+                                    <!-- Заменить на icon -->
+                                    <div class="item-card__value">
+                                        <img src="img/ico-weight.svg" alt="" class="item-card__icon">
+                                        <p class="item-card__text">211 кг</p>
+                                    </div>
+                                </div>
+                                <p class="item-card__price">$417.240</p>
+                                <a href="moto-products/kawasaki/kawasaki-ninja-650.html" class="item-card__shop"><img src="img/ico-shop.svg" alt="shop"></a>
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="item-card__wrapper about-card__item">
+                                <h2 class="item-card__title">Kawasaki</h2>
+                                <h4 class="item-card__subt-title">Ninja 650</h4>
+                                <div class="item-card__wrapper-img">
+                                    <img src="img/section_popular/popular-product-2-kawasaki-ninja-650.png" alt="" class="item-card__img" href="#">
+                                </div>
+                                <div class="item-card__characteristic">
+                                    <!-- Заменить на icon -->
+                                    <div class="item-card__value">
+                                        <img src="img/ico-spped.svg" alt="" class="item-card__icon">
+                                        <p class="item-card__text">4.2 сек</p>
+                                    </div>
+                                    <!-- Заменить на icon -->
+                                    <div class="item-card__value">
+                                        <img src="img/ico-chart.svg" alt="" class="item-card__icon">
+                                        <p class="item-card__text">205 км/ч</p>
+                                    </div>
+                                    <!-- Заменить на icon -->
+                                    <div class="item-card__value">
+                                        <img src="img/ico-weight.svg" alt="" class="item-card__icon">
+                                        <p class="item-card__text">211 кг</p>
+                                    </div>
+                                </div>
+                                <p class="item-card__price">$417.240</p>
+                                <a href="moto-products/kawasaki/kawasaki-ninja-650.html" class="item-card__shop"><img src="img/ico-shop.svg" alt="shop"></a>
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="item-card__wrapper about-card__item">
+                                <h2 class="item-card__title">Kawasaki</h2>
+                                <h4 class="item-card__subt-title">Ninja 650</h4>
+                                <div class="item-card__wrapper-img">
+                                    <img src="img/section_popular/popular-product-2-kawasaki-ninja-650.png" alt="" class="item-card__img" href="#">
+                                </div>
+                                <div class="item-card__characteristic">
+                                    <!-- Заменить на icon -->
+                                    <div class="item-card__value">
+                                        <img src="img/ico-spped.svg" alt="" class="item-card__icon">
+                                        <p class="item-card__text">4.2 сек</p>
+                                    </div>
+                                    <!-- Заменить на icon -->
+                                    <div class="item-card__value">
+                                        <img src="img/ico-chart.svg" alt="" class="item-card__icon">
+                                        <p class="item-card__text">205 км/ч</p>
+                                    </div>
+                                    <!-- Заменить на icon -->
+                                    <div class="item-card__value">
+                                        <img src="img/ico-weight.svg" alt="" class="item-card__icon">
+                                        <p class="item-card__text">211 кг</p>
+                                    </div>
+                                </div>
+                                <p class="item-card__price">$417.240</p>
+                                <a href="moto-products/kawasaki/kawasaki-ninja-650.html" class="item-card__shop"><img src="img/ico-shop.svg" alt="shop"></a>
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="item-card__wrapper about-card__item">
+                                <h2 class="item-card__title">Kawasaki</h2>
+                                <h4 class="item-card__subt-title">Ninja 650</h4>
+                                <div class="item-card__wrapper-img">
+                                    <img src="img/section_popular/popular-product-2-kawasaki-ninja-650.png" alt="" class="item-card__img" href="#">
+                                </div>
+                                <div class="item-card__characteristic">
+                                    <!-- Заменить на icon -->
+                                    <div class="item-card__value">
+                                        <img src="img/ico-spped.svg" alt="" class="item-card__icon">
+                                        <p class="item-card__text">4.2 сек</p>
+                                    </div>
+                                    <!-- Заменить на icon -->
+                                    <div class="item-card__value">
+                                        <img src="img/ico-chart.svg" alt="" class="item-card__icon">
+                                        <p class="item-card__text">205 км/ч</p>
+                                    </div>
+                                    <!-- Заменить на icon -->
+                                    <div class="item-card__value">
+                                        <img src="img/ico-weight.svg" alt="" class="item-card__icon">
+                                        <p class="item-card__text">211 кг</p>
+                                    </div>
+                                </div>
+                                <p class="item-card__price">$417.240</p>
+                                <a href="moto-products/kawasaki/kawasaki-ninja-650.html" class="item-card__shop"><img src="img/ico-shop.svg" alt="shop"></a>
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="item-card__wrapper about-card__item">
+                                <h2 class="item-card__title">Kawasaki</h2>
+                                <h4 class="item-card__subt-title">Ninja 650</h4>
+                                <div class="item-card__wrapper-img">
+                                    <img src="img/section_popular/popular-product-2-kawasaki-ninja-650.png" alt="" class="item-card__img" href="#">
+                                </div>
+                                <div class="item-card__characteristic">
+                                    <!-- Заменить на icon -->
+                                    <div class="item-card__value">
+                                        <img src="img/ico-spped.svg" alt="" class="item-card__icon">
+                                        <p class="item-card__text">4.2 сек</p>
+                                    </div>
+                                    <!-- Заменить на icon -->
+                                    <div class="item-card__value">
+                                        <img src="img/ico-chart.svg" alt="" class="item-card__icon">
+                                        <p class="item-card__text">205 км/ч</p>
+                                    </div>
+                                    <!-- Заменить на icon -->
+                                    <div class="item-card__value">
+                                        <img src="img/ico-weight.svg" alt="" class="item-card__icon">
+                                        <p class="item-card__text">211 кг</p>
+                                    </div>
+                                </div>
+                                <p class="item-card__price">$417.240</p>
+                                <a href="moto-products/kawasaki/kawasaki-ninja-650.html" class="item-card__shop"><img src="img/ico-shop.svg" alt="shop"></a>
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="item-card__wrapper about-card__item">
+                                <h2 class="item-card__title">Kawasaki</h2>
+                                <h4 class="item-card__subt-title">Ninja 650</h4>
+                                <div class="item-card__wrapper-img">
+                                    <img src="img/section_popular/popular-product-2-kawasaki-ninja-650.png" alt="" class="item-card__img" href="#">
+                                </div>
+                                <div class="item-card__characteristic">
+                                    <!-- Заменить на icon -->
+                                    <div class="item-card__value">
+                                        <img src="img/ico-spped.svg" alt="" class="item-card__icon">
+                                        <p class="item-card__text">4.2 сек</p>
+                                    </div>
+                                    <!-- Заменить на icon -->
+                                    <div class="item-card__value">
+                                        <img src="img/ico-chart.svg" alt="" class="item-card__icon">
+                                        <p class="item-card__text">205 км/ч</p>
+                                    </div>
+                                    <!-- Заменить на icon -->
+                                    <div class="item-card__value">
+                                        <img src="img/ico-weight.svg" alt="" class="item-card__icon">
+                                        <p class="item-card__text">211 кг</p>
+                                    </div>
+                                </div>
+                                <p class="item-card__price">$417.240</p>
+                                <a href="moto-products/kawasaki/kawasaki-ninja-650.html" class="item-card__shop"><img src="img/ico-shop.svg" alt="shop"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </section>
+        <section class="section more-possibilities anim-block">
+            <div class="container">
+                <div class="more-possibilities__content">
+                    <h2 class="title more-possibilities__title">Больше возможностей</h2>
+                    <div class="more-possibilities__wrapper-img">
+                        <div class="more-possibilities__img-overflow">
+                            <img class="more-possibilities__img" src="img/section_more-possibilities/section_more-possibilities-1.png" alt="img-">
+                        </div>
+                        <div class="more-possibilities__card-img more-possibilities__card-img-1 card-img">
+                            <h4 class="card-img__title more-possibilities__card-title">221</h4>
+                            <p class="card-img__text">кг</p>
+                        </div>
+                        <div class="more-possibilities__card-img more-possibilities__card-img-2 card-img">
+                            <h4 class="card-img__title more-possibilities__card-title">4.2</h4>
+                            <p class="card-img__text">Сек</p>
+                        </div>
+                        <div class="more-possibilities__card-img more-possibilities__card-img-3 card-img">
+                            <h4 class="card-img__title more-possibilities__card-title">250</h4>
+                            <p class="card-img__text">Км/ч</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="product" class="section recommendations anim-block">
+            <div class="container">
+                <div class="recommendations__content">
+                    <h2 class="title recommendations__title">Рекомендуемые мотоциклы</h2>
+                    <div class="recommendations__companies-about companies">
+                        <!-- <button class="companies__item"><img class="companies__img" src="img/section_recommendations/kawasaki.png" alt=""></button>
+                        <button class="companies__item"><img class="companies__img" src="img/section_recommendations/kawasaki.png" alt=""></button>
+                        <button class="companies__item"><img class="companies__img" src="img/section_recommendations/kawasaki.png" alt=""></button> -->
+                        <button data-f="all" class="companies__item companies__item--active">all</button>
+                        <button data-f="kawasaki" class="companies__item"><span data-f="kawasaki"></span></button>
+                        <button data-f="honda" class="companies__item"><span data-f="honda"></span></button>
+                        <button data-f="yamaha" class="companies__item"><span data-f="yamaha"></span></button>
+                    </div>
+                    <div class="product-about__wrapper">
+                        <div class="recommendations__product-about">
+                            <div class="item-card__wrapper about-card__item kawasaki">
+                                <h2 class="item-card__title">Kawasaki</h2>
+                                <h4 class="item-card__subt-title">Ninja 650</h4>
+                                <div class="item-card__wrapper-img">
+                                    <img src="img/section_popular/popular-product-2-kawasaki-ninja-650.png" alt="" class="item-card__img" href="#">
+                                </div>
+                                <div class="item-card__characteristic">
+                                    <!-- Заменить на icon -->
+                                    <div class="item-card__value">
+                                        <img src="img/ico-spped.svg" alt="" class="item-card__icon">
+                                        <p class="item-card__text">4.2 сек</p>
+                                    </div>
+                                    <!-- Заменить на icon -->
+                                    <div class="item-card__value">
+                                        <img src="img/ico-chart.svg" alt="" class="item-card__icon">
+                                        <p class="item-card__text">205 км/ч</p>
+                                    </div>
+                                    <!-- Заменить на icon -->
+                                    <div class="item-card__value">
+                                        <img src="img/ico-weight.svg" alt="" class="item-card__icon">
+                                        <p class="item-card__text">211 кг</p>
+                                    </div>
+                                </div>
+                                <p class="item-card__price">$417.240</p>
+                                <a href="moto-products/kawasaki/kawasaki-ninja-650.html" class="item-card__shop"><img src="img/ico-shop.svg" alt="shop"></a>
+                            </div>
+                            <div class="item-card__wrapper about-card__item kawasaki">
+                                <h2 class="item-card__title">Kawasaki</h2>
+                                <h4 class="item-card__subt-title">Ninja 650</h4>
+                                <div class="item-card__wrapper-img">
+                                    <img src="img/section_popular/popular-product-2-kawasaki-ninja-650.png" alt="" class="item-card__img" href="#">
+                                </div>
+                                <div class="item-card__characteristic">
+                                    <!-- Заменить на icon -->
+                                    <div class="item-card__value">
+                                        <img src="img/ico-spped.svg" alt="" class="item-card__icon">
+                                        <p class="item-card__text">4.2 сек</p>
+                                    </div>
+                                    <!-- Заменить на icon -->
+                                    <div class="item-card__value">
+                                        <img src="img/ico-chart.svg" alt="" class="item-card__icon">
+                                        <p class="item-card__text">205 км/ч</p>
+                                    </div>
+                                    <!-- Заменить на icon -->
+                                    <div class="item-card__value">
+                                        <img src="img/ico-weight.svg" alt="" class="item-card__icon">
+                                        <p class="item-card__text">211 кг</p>
+                                    </div>
+                                </div>
+                                <p class="item-card__price">$417.240</p>
+                                <a href="moto-products/kawasaki/kawasaki-ninja-650.html" class="item-card__shop"><img src="img/ico-shop.svg" alt="shop"></a>
+                            </div>
+                            <div class="item-card__wrapper about-card__item honda">
+                                <h2 class="item-card__title">Honda</h2>
+                                <h4 class="item-card__subt-title">CBR250RR</h4>
+                                <div class="item-card__wrapper-img">
+                                    <img src="img/section_recommendations/honda.png" alt="" class="item-card__img" href="#">
+                                </div>
+                                <div class="item-card__characteristic">
+                                    <!-- Заменить на icon -->
+                                    <div class="item-card__value">
+                                        <img src="img/ico-spped.svg" alt="" class="item-card__icon">
+                                        <p class="item-card__text">4.2 сек</p>
+                                    </div>
+                                    <!-- Заменить на icon -->
+                                    <div class="item-card__value">
+                                        <img src="img/ico-chart.svg" alt="" class="item-card__icon">
+                                        <p class="item-card__text">205 км/ч</p>
+                                    </div>
+                                    <!-- Заменить на icon -->
+                                    <div class="item-card__value">
+                                        <img src="img/ico-weight.svg" alt="" class="item-card__icon">
+                                        <p class="item-card__text">211 кг</p>
+                                    </div>
+                                </div>
+                                <p class="item-card__price">$417.240</p>
+                                <a href="moto-products/kawasaki/kawasaki-ninja-650.html" class="item-card__shop"><img src="img/ico-shop.svg" alt="shop"></a>
+                            </div>
+                            <div class="item-card__wrapper about-card__item honda">
+                                <h2 class="item-card__title">Honda</h2>
+                                <h4 class="item-card__subt-title">CBR250RR</h4>
+                                <div class="item-card__wrapper-img">
+                                    <img src="img/section_recommendations/honda.png" alt="" class="item-card__img" href="#">
+                                </div>
+                                <div class="item-card__characteristic">
+                                    <!-- Заменить на icon -->
+                                    <div class="item-card__value">
+                                        <img src="img/ico-spped.svg" alt="" class="item-card__icon">
+                                        <p class="item-card__text">4.2 сек</p>
+                                    </div>
+                                    <!-- Заменить на icon -->
+                                    <div class="item-card__value">
+                                        <img src="img/ico-chart.svg" alt="" class="item-card__icon">
+                                        <p class="item-card__text">205 км/ч</p>
+                                    </div>
+                                    <!-- Заменить на icon -->
+                                    <div class="item-card__value">
+                                        <img src="img/ico-weight.svg" alt="" class="item-card__icon">
+                                        <p class="item-card__text">211 кг</p>
+                                    </div>
+                                </div>
+                                <p class="item-card__price">$417.240</p>
+                                <a href="moto-products/kawasaki/kawasaki-ninja-650.html" class="item-card__shop"><img src="img/ico-shop.svg" alt="shop"></a>
+                            </div>
+                            <div class="item-card__wrapper about-card__item yamaha">
+                                <h2 class="item-card__title">Yamaha</h2>
+                                <h4 class="item-card__subt-title">YZF-R3</h4>
+                                <div class="item-card__wrapper-img">
+                                    <img src="img/section_popular/popular-product-2-yamaha-YZF-R3.png" alt="" class="item-card__img" href="#">
+                                </div>
+                                <div class="item-card__characteristic">
+                                    <!-- Заменить на icon -->
+                                    <div class="item-card__value">
+                                        <img src="img/ico-spped.svg" alt="" class="item-card__icon">
+                                        <p class="item-card__text">4.2 сек</p>
+                                    </div>
+                                    <!-- Заменить на icon -->
+                                    <div class="item-card__value">
+                                        <img src="img/ico-chart.svg" alt="" class="item-card__icon">
+                                        <p class="item-card__text">205 км/ч</p>
+                                    </div>
+                                    <!-- Заменить на icon -->
+                                    <div class="item-card__value">
+                                        <img src="img/ico-weight.svg" alt="" class="item-card__icon">
+                                        <p class="item-card__text">211 кг</p>
+                                    </div>
+                                </div>
+                                <p class="item-card__price">$417.240</p>
+                                <a href="moto-products/kawasaki/kawasaki-ninja-650.html" class="item-card__shop"><img src="img/ico-shop.svg" alt="shop"></a>
+                            </div>
+                            <div class="item-card__wrapper about-card__item kawasaki">
+                                <h2 class="item-card__title">Kawasaki</h2>
+                                <h4 class="item-card__subt-title">Ninja 650</h4>
+                                <div class="item-card__wrapper-img">
+                                    <img src="img/section_popular/popular-product-2-kawasaki-ninja-650.png" alt="" class="item-card__img" href="#">
+                                </div>
+                                <div class="item-card__characteristic">
+                                    <!-- Заменить на icon -->
+                                    <div class="item-card__value">
+                                        <img src="img/ico-spped.svg" alt="" class="item-card__icon">
+                                        <p class="item-card__text">4.2 сек</p>
+                                    </div>
+                                    <!-- Заменить на icon -->
+                                    <div class="item-card__value">
+                                        <img src="img/ico-chart.svg" alt="" class="item-card__icon">
+                                        <p class="item-card__text">205 км/ч</p>
+                                    </div>
+                                    <!-- Заменить на icon -->
+                                    <div class="item-card__value">
+                                        <img src="img/ico-weight.svg" alt="" class="item-card__icon">
+                                        <p class="item-card__text">211 кг</p>
+                                    </div>
+                                </div>
+                                <p class="item-card__price">$417.240</p>
+                                <a href="moto-products/kawasaki/kawasaki-ninja-650.html" class="item-card__shop"><img src="img/ico-shop.svg" alt="shop"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="help-from" class="section help-form anim-block">
+            <div class="container">
+                <div class="help-form__content">
+                    <h2 class="title popular__title">Нужна помощь?</h2>
+                    <h4 class="sub-title popular__sub-title">Свяжитесь с нами</h4>
+                    <form class="form" action="#" method="post">
+                        <div class="form__about">
+                            <div class="form__item">
+                                <!-- <label class="form__label" for="lastName">Фамилия</label> -->
+                                <input class="form__input" class="" type="text" id="lastName" placeholder="Фамилия">
+                            </div>
+                            <div class="form__item">
+                                <!-- <label class="form__label" for="firstName">Имя</label> -->
+                                <input class="form__input" type="text" id="firstName" placeholder="Имя">
+                            </div>
+                            <div class="form__item">
+                                <!-- <label class="form__label" for="email">Почта</label> -->
+                                <input class="form__input" type="email" id="email" placeholder="Почта">
+                            </div>
+                            <div class="form__item">
+                                <!-- <label class="form__label" for="number">Номер телефона</label> -->
+                                <input class="form__input" type="number" id="number" placeholder="Номер телефона">
+                            </div>
+                        </div>
+                        <input class="btn form__btn" type="submit" value="Отправить">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer anim-block">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__rave rave">
+                    <div class="rave__item"><img class="rave__img" src="img/footer/kawasaki.svg" alt=""></div>
+                    <div class="rave__item"><img class="rave__img" src="img/footer/honda.svg" alt=""></div>
+                    <div class="rave__item"><img class="rave__img" src="img/footer/yamaha.svg" alt=""></div>
+                </div>
+                <img class="footer__logo" src="img/logo.png" alt="">
+                <p class="footer__copyright">&copy; 2023 Все права защищенны. Сайт создал Филиппов Николай</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- SLICK -->
+    <script type="text/javascript" src="js/slick.min.js"></script>
+
+    <script src="js/slider.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

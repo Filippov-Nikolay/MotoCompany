@@ -1,0 +1,71 @@
+
+/* ANIMATION (show content on scroll) */
+/* ========================= */
+/* help-from */
+/* ========================= */
+.header__content {
+    opacity: 0;
+    transition: all .5s ease;
+}
+.element-show .header__content {
+    opacity: 1;
+}
+/* ========================= */
+/* help-from */
+/* ========================= */
+.title {
+    opacity: 0;
+    transform: translateY(-45px);
+    transition: all .5s ease;
+}
+.sub-title {
+    opacity: 0;
+    transform: translateY(-45px);
+    transition: all .8s ease;
+}
+.element-show .title {
+    opacity: 1;
+    transform: translateX(0);
+}
+.element-show .sub-title {
+    opacity: 1;
+    transform: translateX(0);
+}
+.form__input {
+    width: 0;
+    transition: all 0.5s ease;
+}
+.form__btn {
+    opacity: 0;
+    transition: all 1s ease;
+}
+.element-show .form__input {
+    width: 100%;
+}
+.element-show .form__btn {
+    opacity: 1;
+}
+/* ========================= */
+/* footer */
+/* ========================= */
+.rave__item {
+    transform: scale(0);
+    transition: all .5s ease;
+}
+.footer__logo {
+    opacity: 0;
+    transition: all 1.2s ease;
+}
+.footer__copyright {
+    opacity: 0;
+    transition: all 1.5s ease;
+}
+.element-show .rave__item {
+    transform: scale(1);
+}
+.element-show .footer__logo {
+    opacity: 1;
+}
+.element-show .footer__copyright {
+    opacity: 1;
+}

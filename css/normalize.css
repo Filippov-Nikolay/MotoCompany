@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+ul, li {
+    display: block;
+
+    margin: 0;
+}
+a {
+    display: block;
+    text-decoration: none;
+}
+input {
+    outline: none;
+    border: none;
+    background-color: inherit;
+}
+button {
+    display: block;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+button:focus {
+    outline: none;
+}

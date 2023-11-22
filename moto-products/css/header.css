@@ -1,0 +1,258 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+body {
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+
+    background-color: #090909;
+}
+p {
+    margin: 0;
+}
+
+.header {
+    background: none;
+    background-color: #090909;
+
+    height: 100%;
+}
+.header::after {
+    content: none;
+}
+.container {
+    margin: 0 auto;
+
+    width: 90%;
+}
+.header__wrapper-nav {
+    position: fixed;
+    z-index: 20;
+
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    height: 80px;
+
+    background: #090909;
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.25);
+}
+.nav {
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+}
+.logo {
+}
+.logo__img {
+}
+.menu {
+    display: flex;
+}
+.menu__item {
+}
+.menu__item:not(:last-child) {
+    margin-right: 20px;
+}
+.menu__link {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 300;
+
+    transition: all .8s ease;
+}
+.menu__link::after {
+    content: '';
+
+    display: block;
+    
+    width: 0;
+    height: 1px;
+
+    background-color: #FFF;
+
+    transition: all .8s ease;
+}
+.menu__link:hover::after {
+    margin: 0 auto;
+
+    width: 100%;
+
+    background-color: #3C79DF;
+}
+.menu__link:hover {
+    color: #3C79DF;
+    text-decoration: none;
+}
+
+.header__content {
+    margin: 0;
+    padding: 0;
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+    width: 100%;
+    height: auto;
+
+    background: none;
+}
+.header__wrapper {
+    display: flex;
+}
+.header__item {
+}
+.header__item:not(:last-child) {
+    
+}
+
+.product__img-presentation {
+    margin-right: 30px;
+    min-width: 433px;
+}
+.carousel {
+    display: flex;
+    align-items: center;
+
+    width: 403px;
+    height: 403px;
+
+    border-radius: 15px;
+    background-color: #101213;
+}
+.carousel-inner {
+    display: flex;
+    align-items: center;
+}
+.carousel-item {
+    padding: 15px;
+}
+.carousel-control-next, 
+.carousel-control-prev {
+    width: auto;
+}
+.carousel-indicators {
+    position: absolute;
+    bottom: -30px;
+}
+.carousel-control-next {
+    right: 15px;
+}
+.carousel-control-prev {
+    left: 15px;
+}
+.product__img {
+    padding: 15px;
+}
+
+/* .carousel {
+    margin-right: 30px;
+    padding: 15px;
+
+    border-radius: 15px;
+    background-color: #101213;
+}
+.product__img-presentation {
+    position: relative;
+    
+}
+.slide {
+    max-height: 375px;
+}
+.carousel-inner {
+    max-width: 100%;
+    max-height: 375px;
+}
+.carousel-item {
+    width: max-content;
+}
+.product__img {
+    margin: 0 10px;
+}
+.active {
+}
+.carousel-indicators {
+    margin-top: 30px;
+}
+.carousel-control-prev {
+}
+.carousel-control-prev-icon {
+}
+.sr-only {
+}
+.carousel-control-next {
+}
+
+.carousel-control-next-icon {
+    background-image: url(../img/header/ico-next.png);
+    background-size: contain;
+}
+
+.carousel-control-next-icon {
+} */
+
+
+.product__info-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    min-width: max-content;
+    max-height: 403px;
+}
+.product__title {
+    font-size: 36px;
+    font-weight: 700;
+}
+.product__sub-title {
+    font-size: 24px;
+    font-weight: 300;
+}
+.product__info {
+    margin: auto 0;
+
+    width: max-content;
+}
+.info {
+}
+.info__item {
+    display: flex;
+    align-items: center;
+}
+.product__info img {
+    max-width: 19px;
+}
+.info__item:not(:last-child) {
+    margin-bottom: 10px;
+}
+.item__property {
+    margin: 0 4px;
+
+    font-size: 11px;
+    font-weight: 700;
+}
+.item__parameter {
+    font-size: 11px;
+    font-weight: 300;
+}
+.item__price-property {
+    margin: 0;
+    margin-right: 4px;
+    font-size: 18px;
+}
+.item__price-parameter {
+    font-size: 22px;
+}
+.btn {
+}
+.header__text-info {
+}
+.text-info {
+    margin-left: 52px;
+}
+.text-info__item {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 300;
+}

@@ -1,0 +1,36 @@
+@import url('header.css');
+@import url('section.css');
+@import url('section_about-us.css');
+@import url('section_popular.css');
+@import url('section_more-possibilities.css');
+@import url('section_recommendations.css');
+@import url('section_help-form.css');
+@import url('footer.css');
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+body {
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+/* chrome, opera, safari, yandex, microsoft-edge */
+body::-webkit-scrollbar, .box-forms::-webkit-scrollbar {
+    width: 10px;
+}
+body::-webkit-scrollbar-track, .box-forms::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+body::-webkit-scrollbar-thumb, .box-forms::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border: 3px solid #fff;
+}
+
+.main {
+    position: relative;
+}
+.section {
+    overflow: hidden;
+}

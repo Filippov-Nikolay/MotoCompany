@@ -1,0 +1,102 @@
+.recommendations {
+    padding-top: 50px;
+    padding-bottom: 150px;
+
+    box-shadow: 0px -30px 15px 0px rgba(0, 0, 0, 0.25) inset;
+}
+.recommendations__content {
+}
+.recommendations__title {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    max-width: 375px;
+}
+.recommendations__companies-about {
+    display: flex;
+    justify-content: center;
+}
+.companies {
+}
+.companies__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 70px;
+    max-height: 70px;
+    width: 70px;
+    height: 70px;
+
+    color: #394B68;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    border-radius: 15px;
+    background: #101213;
+
+    transition: all .5s ease;
+}
+.companies__item span {
+    display: block;
+
+    width: 65%;
+    height: 100%;
+
+    background: #394B68;
+
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-size: 100%;
+    -webkit-mask-size: 100%;
+    mask-position: center;
+    -webkit-mask-position: center;
+
+    transition: all .5s ease;
+}
+.companies__item:nth-child(2) span {
+    -webkit-mask-image: url(../img/section_recommendations/kawasaki.svg);
+    mask-image: url(../img/section_recommendations/kawasaki.svg);
+    background-image: url(../img/section_recommendations/kawasaki.svg);
+}
+.companies__item:nth-child(3) span {
+    -webkit-mask-image: url(../img/section_recommendations/honda.svg);
+    mask-image: url(../img/section_recommendations/honda.svg);
+    background-image: url(../img/section_recommendations/honda.svg);
+}
+.companies__item:nth-child(4) span {
+    -webkit-mask-image: url(../img/section_recommendations/yamaha.svg);
+    mask-image: url(../img/section_recommendations/yamaha.svg);
+    background-image: url(../img/section_recommendations/yamaha.svg);
+}
+
+.companies__item:hover:not(.companies__item--active) {
+    background-color: #102548;
+}
+.companies__item:not(:last-child) {
+    margin-right: 40px;
+}
+.companies__item--active {
+    color: #FFF;
+    background-color: #3C79DF;
+}
+.companies__item--active span {
+    color: #FFF;
+    background-color: #FFF;
+}
+.companies__img {
+    margin: 0 auto;
+}
+.recommendations__product-about {
+    display: inline-grid;
+
+    grid-template-columns: repeat(4, auto);
+    gap: 35px;
+}
+.product-about__wrapper {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 50px;
+}

@@ -1,0 +1,89 @@
+.about-us {
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+.about-us__content {
+    display: flex;
+    justify-content: space-between;
+}
+.about-us__aside {
+}
+.about-us__wrapper-img {
+    position: relative;
+}
+.about-us__img {
+
+    
+}
+.about-us__img-overflow {
+    max-width: 500px;
+
+    overflow: hidden;
+
+    border-radius: 15px;
+}
+.about-us__card-img {
+    position: absolute;
+    bottom: -40px;
+    right: -70px;
+
+    padding: 20px 10px;
+
+    max-width: 280px;
+
+    text-align: center;
+
+    border-radius: 20px;
+    background: rgba(70, 70, 70, 0.50);
+    
+    backdrop-filter: blur(5px);
+}
+.card-img {
+}
+.card-img__title {
+    font-size: 24px;
+    font-weight: 700;
+}
+.card-img__text {
+    margin: 0;
+    
+    font-size: 16px;
+    font-weight: 300;
+}
+.about-us__content-info {
+    
+}
+.content-info {
+}
+.content-info__title {
+    margin-bottom: 35px;
+
+    font-size: 24px;
+    font-weight: 700;
+}
+.content-info__text {
+    max-width: 400px;
+
+    font-size: 20px;
+}
+.btn {
+    padding: 25px 35px;
+
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+
+    border-radius: 8px;
+    background: #3C79DF;
+
+    transition: all .5s ease;
+}
+.btn:hover {
+    color: #FFF;
+    background: #2d5db1;
+}
+.section__btn {
+}
+.about-us__btn {
+    margin-top: 80px;
+}

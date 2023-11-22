@@ -1,0 +1,247 @@
+.popular {
+    padding: 50px 0;
+}
+.popular__content {
+}
+.title {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+.popular__title {
+    margin-bottom: 10px;
+}
+.sub-title {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+}
+.popular__sub-title {
+    margin: 0 auto;
+
+    max-width: 370px;
+}
+.about-popular {
+    margin-top: 70px;
+}
+.about-popular__item-card {
+    margin-right: 35px;
+}
+.about-popular__item-card:not(:last-child) {
+}
+.about-card {
+    display: flex;
+    justify-content: center;
+}
+.item-card__wrapper {
+    position: relative;
+
+    padding: 20px 15px;
+
+    max-width: 230px;
+
+    border-radius: 15px;
+    background: #101213;
+
+    overflow: hidden;
+
+    
+}
+.show {
+    animation: show-anim .5s linear normal both;
+}
+.hide {
+    animation: hide-anim .5s linear normal both;
+}
+@keyframes hide-anim {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        position: absolute;
+        z-index: 1;
+        transform: scale(0);
+    }
+}
+@keyframes show-anim {
+    0% {
+        transform: scale(0);
+        position: absolute;
+        z-index: 2;
+    }
+    100% {
+        position: relative;
+        z-index: 2;
+        transform: scale(1);
+    }
+}
+.about-card__item {
+}
+.about-card__item:hover .item-card__img {
+    transform: scale(1.2);
+}
+.about-card__item:not(:last-child) {
+}
+.item-card__title {
+    font-size: 24px;
+    font-weight: 700;
+}
+.item-card__subt-title {
+    font-size: 20px;
+    font-weight: 300;
+}
+.item-card__wrapper-img {
+}
+.item-card__img {
+    margin: 0 auto;
+    padding: 10px;
+
+    max-width: 180px;
+    max-height: 135px;
+
+    transition: all .5s ease;
+}
+.item-card__characteristic {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.item-card__value {
+    display: flex;
+    align-items: center;
+
+    margin-top: 10px;
+}
+.item-card__value:not(:last-child) {
+    margin-right: 10px;
+}
+.item-card__icon {
+    margin-right: 5px;
+}
+.item-card__text {
+    margin: 0;
+
+    font-size: 11px;
+}
+.item-card__price {
+    margin: 0;
+    margin-top: 15px;
+
+    font-size: 24px;
+    font-weight: 700;
+}
+.item-card__shop {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    display: inline-block;
+    padding: 10px;
+
+    border-radius: 15px 0px;
+    background: #3C79DF;
+
+    transition: all .5s ease;
+}
+.item-card__shop:hover {
+    background: #2d5db1;
+}
+
+
+/* BOOTSTRAP-CAROUSEL */
+.carousel-indicators {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    margin-top: 60px;
+    margin-bottom: 0;
+}
+
+.carousel-indicators li {
+    display: block;
+    padding: 0 2px;
+
+    background-color: #D9D9D9;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 1px;
+
+    opacity: 1;
+}
+
+.carousel-indicators .active {
+    padding: 2px 2px;
+    background-color: #3C79DF;
+}
+
+
+
+.slider {
+}
+/* Слайдер */
+.slick-slider{}
+/* Слайдер запущен */
+.slick-slider.slick-initialized{}
+/* Слайдер с точками */
+.slick-slider.slick-dotted{}
+/* Ограничивающая оболочка */
+.slick-list {
+    margin: 0 auto;
+    overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+    display: flex;
+}
+/* Слайд */
+.slick-slide{
+    margin-right: 35px;
+}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active{}
+/* Слайд основной */
+.slick-slide.slick-current{}
+/* Слайд по центру */
+.slick-slide.slick-center{}
+/* Клонированный слайд */
+.slick-slide.slick-cloned{}
+/* Стрелка */
+.slick-arrow{
+    display: none;
+}
+/* Стрелка влево */
+.slick-arrow.slick-prev{}
+/* Стрелка вправо */
+.slick-arrow.slick-next{}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled{}
+/* Точки (булиты) */
+.slick-dots{
+    display: flex;
+    justify-content: center;
+}
+.slick-dots li{
+    display: block;
+    width: 40px;
+    height: 4px;
+
+    background-color: #D9D9D9;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 1px;
+    font-size: 0;
+
+    opacity: 1;
+}
+.slick-dots li:not(:last-child) {
+    margin-right: 5px;
+}
+/* Активная точка */
+.slick-dots li.slick-active{
+    padding: 2px 2px;
+    background-color: #3C79DF;
+}
+/* Элемент точки */
+.slick-dots li button{}
