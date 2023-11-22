@@ -76,7 +76,7 @@ function onEntry(entry) {
     });
 }
 let options = {
-    threshold: [0.3]
+    threshold: [0.1]
 };
 
 let observer = new IntersectionObserver(onEntry, options);
