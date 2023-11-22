@@ -252,7 +252,7 @@ p {
     left: 0;
     z-index: 21;
 
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -264,9 +264,12 @@ p {
 
     background: rgba(0, 0, 0, 0.70);
     backdrop-filter: blur(10px);
+
+    transform: scale(0);
+    transition: all .5s ease;
 }
 .order--active {
-    display: flex;
+    transform: scale(1);
 }
 .order__form {
     max-width: 450px;
