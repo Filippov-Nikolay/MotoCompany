@@ -34,5 +34,6 @@ body {
     position: relative;
 }
 .section {
+    padding-top: 80px;
     overflow: hidden;
 }
