@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../../../img/logo-title.svg">
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <!-- NORMALIZE -->
+    <link rel="stylesheet" href="../../../css/normalize.css">
+
+    <!-- CUSTOM -->
+    <link rel="stylesheet" href="../../../css/custom.css">
+    <link rel="stylesheet" href="../../css/header.css">
+
+    <!-- ADAPTIVE -->
+    <link rel="stylesheet" href="../../../css/adaptive.css">
+    <link rel="stylesheet" href="../../css/adaptive.css">
+
+    <!-- ANIMATION -->
+    <link rel="stylesheet" href="../../css/animation.css">
+
+    <title>Yamaha YZF-R7</title>
+</head>
+<body>
+    <header class="header anim-block">
+        <div class="header__wrapper-nav header__wrapper-nav--active">
+            <div class="container">
+                <nav class="nav">
+                    <a href="../../../index.html" class="logo"><img src="../../../img/logo.svg" alt="logo" class="logo__img"></a>
+                    <ul class="menu">
+                        <li class="menu__item"><a href="../../../index.html#about-us" class="menu__link">О нас</a></li>
+                        <li class="menu__item"><a href="../../../index.html#popular" class="menu__link">Популярные</a></li>
+                        <li class="menu__item"><a href="../../../index.html#product" class="menu__link">Товары</a></li>
+                        <li class="menu__item"><a href="../../../index.html#help-from" class="menu__link">Помощь</a></li>
+                    </ul>
+                    <button class="burger">
+                        <span class="burger__item"></span>
+                        <span class="burger__item"></span>
+                        <span class="burger__item"></span>
+                    </button>
+                </nav>
+            </div>
+        </div>
+        <div class="container">
+            <div class="header__content">
+                <div class="header__wrapper">
+                    <div class="header__item product__img-presentation">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="product__img d-block w-100" src="../../img/product-img/yamaha/yamaha-yzf-r3/yamaha-YZF-R7-1.png" alt="Первый слайд">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="header__item product__info-wrapper">
+                        <h2 class="product__title">Yamaha</h2>
+                        <h3 class="product__sub-title">YZF-R7</h3>
+                        <div class="product__info info">
+                            <div class="info__item">
+                                <img src="../../img/header/ico-spped.svg" alt="">
+                                <p class="item__property">Разг. 0-100 км/ч:</p>
+                                <p class="item__parameter">3.4 Сек</p>
+                            </div>
+                            <div class="info__item">
+                                <img src="../../img/header/ico-chart.svg" alt="">
+                                <p class="item__property">Макс. с.:</p>
+                                <p class="item__parameter">298 км/ч</p>
+                            </div>
+                            <div class="info__item">
+                                <img src="../../img/header/ico-weight.svg" alt="">
+                                <p class="item__property">Вес:</p>
+                                <p class="item__parameter">188 кг</p>
+                            </div>
+                            <div class="info__item">
+                                <img src="../../img/header/ico-capacity.svg" alt="">
+                                <p class="item__property">Макс. кол-во. п.:</p>
+                                <p class="item__parameter">2</p>
+                            </div>
+                            <div class="info__item">
+                                <img src="../../img/header/ico-dimensions.svg" alt="">
+                                <p class="item__property">Габариты (Д х Ш х В): </p>
+                                <p class="item__parameter">2070 x 700 x 1160 мм</p>
+                            </div>
+                            <div class="info__item">
+                                <img src="../../img/header/ico-fuel.svg" alt="">
+                                <p class="item__property">Расход: </p>
+                                <p class="item__parameter">3.4 л/100 км</p>
+                            </div>
+                            <div class="info__item">
+                                <p class="item__property item__price-property">Цена: </p>
+                                <p class="item__parameter item__price-parameter">9.000$</p>
+                            </div>
+                        </div>
+                        <button class="btn">Оформить заказ</button>
+                        <div class="order">
+                            <h2 class="order__title">Оформление заказа</h2>
+                            <form class="form order__form" action="#" method="post">
+                                <div class="form__about">
+                                    <div class="form__item">
+                                        <input class="form__input" class="" type="text" id="lastName" placeholder="Фамилия">
+                                    </div>
+                                    <div class="form__item">
+                                        <input class="form__input" type="text" id="firstName" placeholder="Имя">
+                                    </div>
+                                    <div class="form__item">
+                                        <input class="form__input" type="email" id="email" placeholder="Почта">
+                                    </div>
+                                    <div class="form__item">
+                                        <input class="form__input" type="number" id="number" placeholder="Номер телефона">
+                                    </div>
+                                </div>
+                                <input class="btn form__btn" type="submit" value="Отправить">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="header__item header__item-text">
+                        <div class="header__text-info text-info">
+                            <p class="text-info__item">
+                                Уличный подход Dark Side of Japan Коллекция MT от Yamaha основана на философии японской городской субкультуры Dark Side of Japan. МТ-09 СП – новейшее творение стилевого направления. Окраска в стиле R1M, первоклассная подвеска и универсальные электронные системы помощи водителю — оснащенный трехцилиндровым двигателем Crossplane, одобренным стандартом EU5, MT-09 SP является абсолютным номером один в своем классе.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="section help-form anim-block">
+        <div class="container">
+            <div class="help-form__content">
+                <h2 class="title popular__title">Нужна помощь?</h2>
+                <h4 class="sub-title popular__sub-title">Свяжитесь с нами</h4>
+                <form class="form" action="#" method="post">
+                    <div class="form__about">
+                        <div class="form__item">
+                            <input class="form__input" class="" type="text" id="lastName" placeholder="Фамилия">
+                        </div>
+                        <div class="form__item">
+                            <input class="form__input" type="text" id="firstName" placeholder="Имя">
+                        </div>
+                        <div class="form__item">
+                            <input class="form__input" type="email" id="email" placeholder="Почта">
+                        </div>
+                        <div class="form__item">
+                            <input class="form__input" type="number" id="number" placeholder="Номер телефона">
+                        </div>
+                    </div>
+                    <input class="btn form__btn" type="submit" value="Отправить">
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer anim-block">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__rave rave">
+                    <div class="rave__item"><img class="rave__img" src="../../../img/footer/kawasaki.svg" alt=""></div>
+                    <div class="rave__item"><img class="rave__img" src="../../../img/footer/honda.svg" alt=""></div>
+                    <div class="rave__item"><img class="rave__img" src="../../../img/footer/yamaha.svg" alt=""></div>
+                </div>
+                <img class="footer__logo" src="../../../img/logo.png" alt="">
+                <p class="footer__copyright">&copy; 2023 Все права защищенны. Сайт создал Филиппов Николай</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
+
+    <script src="../../../js/main.js"></script>
+    <script src="../../js/main-moto.js"></script>
+</body>
+</html>
