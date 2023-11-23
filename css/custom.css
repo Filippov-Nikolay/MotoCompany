@@ -17,15 +17,17 @@ body {
 }
 
 /* chrome, opera, safari, yandex, microsoft-edge */
-body::-webkit-scrollbar, .box-forms::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 10px;
+    background-color: #282c30;
 }
-body::-webkit-scrollbar-track, .box-forms::-webkit-scrollbar-track {
-    background-color: #fff;
+::-webkit-scrollbar-thumb {
+    width: 10px;
+    background-color: #101213;
+    border-radius: 5px;
 }
-body::-webkit-scrollbar-thumb, .box-forms::-webkit-scrollbar-thumb {
-    background-color: #000000;
-    border: 3px solid #fff;
+::-webkit-scrollbar-thumb:hover {
+    background-color: #0d0e0f;
 }
 
 .main {
