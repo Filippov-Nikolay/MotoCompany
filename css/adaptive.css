@@ -4,7 +4,7 @@
         height: 10%;
     }
 }
-@media screen and (max-height: 675px) {
+@media screen and (max-height: 680px) {
     .header::after {
         height: 1%;
     }
