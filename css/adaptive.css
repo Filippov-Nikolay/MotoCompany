@@ -1,5 +1,8 @@
 /* SHADOW */
 @media screen and (max-height: 825px) {
+    .header__content {
+        padding-top: 35px;
+    }
     .header::after {
         height: 10%;
     }
