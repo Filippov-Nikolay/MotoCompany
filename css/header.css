@@ -3,7 +3,7 @@
 
     height: 100vh;
 
-    background: url(../img/header-img/header-bg.png) no-repeat center top/cover;
+    background: url(../img/header-img/header-bg.jpg) no-repeat center top/cover;
 }
 .header::after {
     content: '';
